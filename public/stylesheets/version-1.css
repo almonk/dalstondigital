@@ -1,0 +1,39 @@
+html {
+	font-family: helvetica, arial, sans-serif;
+	width: 320px;
+	margin: 0px auto;
+}
+
+body {
+	background-color: #eee;
+}
+
+h1 {
+	font-size: 	32px;
+	letter-spacing: -2px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+header {
+	border-bottom: 1px solid #999;
+}
+
+footer {
+	border-top: 1px solid #999;
+}
+
+article {
+	border-bottom: 1px solid #ccc;	
+}
+
+article h1 {
+	font-size: 	28px;
+}
+
+
+
+
