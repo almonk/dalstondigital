@@ -45,10 +45,7 @@
       <script>
       $.getJSON("https://twitter.com/dalstondigital/drinks/members.json?callback=?", function(data) {
           $.each(data.users, function(i,item) {
-            // $("<img/>").attr("src", item.profile_image_url).appendTo("#images");
             $("#twitter_members").append("<li class=\"twitter\"><img src=\"" + item.profile_image_url + "\"> <a href=\"http://twitter.com/" + item.screen_name + "\">@" + item.screen_name + "</a></li>");
-            // li.html($("<img/>").attr("src", item.profile_image_url));
-            // li.append(" " + item.screen_name);
           });
         });</script>
         <ul id="twitter_members"></ul>
