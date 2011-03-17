@@ -1,5 +1,7 @@
 == Dalston Digital
 
+Firstly, if anyone feels particular ownership over DDD I'm happy to hand over the domain and repository to their care. Let me know.
+
 This project is intended as a common, shared website for the folks that attend Dalston Digital Drinks.
 
 Fork the repo, hack away at the HTML, the CSS or build an interactive feature in Rails. Nothing is sacrosanct, change at will.
@@ -11,6 +13,10 @@ If you make a pull request to @timharding I'll merge your changes into my branch
 Why a Rails app? First, there's straight up HTML/CSS/Javascript in the public folder so everyone can hack away. There are a few of us who know Rails already and deploying a Rails app to Heroku is free and easy.
 
 Why not a wiki? Well, we're hackers, we should be able to do interesting things and take this thing off piste if we want to.
+
+Thanks,
+
+@timharding
 
 == Welcome to Rails
 
