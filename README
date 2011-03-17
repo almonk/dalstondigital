@@ -1,3 +1,17 @@
+== Dalston Digital
+
+This project is intended as a common, shared website for the folks that attend Dalston Digital Drinks.
+
+Fork the repo, hack away at the HTML, the CSS or build an interactive feature in Rails. Nothing is sacrosanct, change at will.
+
+In particular you should add a link to your own work and some details about who you are.
+
+If you make a pull request to @timharding I'll merge your changes into my branch and deploy it to Heroku where it lives.
+
+Why a Rails app? First, there's straight up HTML/CSS/Javascript in the public folder so everyone can hack away. There are a few of us who know Rails already and deploying a Rails app to Heroku is free and easy.
+
+Why not a wiki? Well, we're hackers, we should be able to do interesting things and take this thing off piste if we want to.
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
