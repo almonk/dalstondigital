@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>#dalstondigital</title>
     <link rel="stylesheet" href="/stylesheets/version-1.css" />
+    <script src="http://code.jquery.com/jquery-1.5.js"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-4890474-10']);
@@ -39,6 +40,18 @@
         <li><a href="http://withassociates.com" title="With Associates">With Associates</a>&mdash;a digital agency. In a nutshell, we build, design and plan websites and apps.</li>
       </ul>
       <p>Fork the repository and add your details here. Let's try to keep them in alphabetical order.</p>
+      
+      <h2>#wetweet</h2>
+      <script>
+      $.getJSON("https://twitter.com/dalstondigital/drinks/members.json?callback=?", function(data) {
+          $.each(data.users, function(i,item) {
+            // $("<img/>").attr("src", item.profile_image_url).appendTo("#images");
+            $("#twitter_members").append("<li class=\"twitter\"><img src=\"" + item.profile_image_url + "\"> <a href=\"http://twitter.com/" + item.screen_name + "\">@" + item.screen_name + "</a></li>");
+            // li.html($("<img/>").attr("src", item.profile_image_url));
+            // li.append(" " + item.screen_name);
+          });
+        });</script>
+        <ul id="twitter_members"></ul>
     </article>
     <article id="about">
       <h1>#about</h1>
