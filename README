@@ -18,6 +18,19 @@ Thanks,
 
 @timharding
 
+== A loose guide to getting things working (please add more)
+. Fork the project on github
+. Make sure you have Ruby 1.8.7 or higher
+. gem install rails
+. cd path/to/your/development/directory
+. git clone <your new repository url>
+. cd dalstondigital
+. bundle
+. rails server
+
+It will now show up on http://localhost:3000
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
